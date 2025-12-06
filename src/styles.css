@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --color-cream: #F9F8F5;
+}
+
+body {
+    background-color: var(--color-cream);
+}
