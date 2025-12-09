@@ -1,0 +1,5 @@
+<div class="shelf-container">
+    @for (book of books(); track book.id) {
+    <app-book-card [book]="book" [showImage]="true" [showDescription]="true" />
+    }
+</div>

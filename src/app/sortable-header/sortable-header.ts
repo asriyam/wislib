@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Book, SortDirection, SortState } from './../models/book.model';
+import { Book, SortDirection, SortState } from '../../models/book.model';
 
 @Component({
   selector: 'th[app-sortable-header]',
